@@ -30,5 +30,19 @@ So the result, which is called the Nim sum, is the binary number 101. Nim additi
 
 Now suppose you are player A, so you go first. Also suppose that the Nim sum of the number of coins in the heaps is not equal to 0. Your strategy will be this: if possible always make a move that reduces the next Nim sum, the Nim sum after your move, to 0. This would then mean that whatever player B does next, by fact 1 the move would turn the next Nim sum into a number that's not 0.
 
+# Usage
+In the following paragraphs, I am going to describe how you can get and use nim-sum for your own projects.
+
+## Getting it
+To download nim-sum, either fork this github repo or simply use Pypi via pip.
+```
+$ pip install NimSum
+```
+
+## Using it
+```python
+from NimSum import NimSum
+```
+
 # References
 [Plus Magazine: Play to win with Nim](https://plus.maths.org/content/play-win-nim)
