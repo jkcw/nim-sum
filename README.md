@@ -1,4 +1,4 @@
-# nim-sum-calculator
+# nim-sum
 It calculates the Nim sum of a nim game.
 
 # The rules of Nim
